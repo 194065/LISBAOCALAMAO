@@ -24,7 +24,7 @@ ul li{
     text-decoration: none;
 }
 
-    .lista { 
+.lista { 
         display: none; 
         position: absolute; /* Aqui está definindo onde o menu irá aparecer */ 
         top: 100%; 
@@ -39,15 +39,16 @@ ul li{
 .caixa:checked ~ .lista{ 
     display: block; 
 }
-    #menu{ 
+#menu{ 
     display: none;
 } 
-    .lista-item { 
+
+.lista-item { 
     padding: 12px 0; 
 } 
 
 
-    @media screen and (min-width: 1024px) { 
+@media screen and (min-width: 1024px) { 
     } 
     .lista{ 
     right: 8%; 
