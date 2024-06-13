@@ -6,7 +6,8 @@ header {
 display: flex; 
 align-items: center; 
 padding: 12px; 
-justify-content: space-around; background-color: black; 
+justify-content: space-around; 
+background-color: black; 
 color: white; 
 position: relative; /* Importante para o menu tomar como referência */
 
