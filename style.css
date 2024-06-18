@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --green: hsl(0, 0%, 100%);
-    --white: #000000;
+    --black: hsl(0, 0%, 0%);
+    --white: #ffffff;
 }
 
 body{
-    background-color: var(--green);
+    background-color: var(--black);
     color: var(--white);
     font-family: "PT Serif", serif;
   font-optical-sizing: auto;
@@ -28,7 +28,7 @@ header{
 
 .intro {
     display: flex;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     margin: 20px 20px;
     padding: 5px;
     border-radius: 5px;
