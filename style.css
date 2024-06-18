@@ -40,7 +40,7 @@ header{
 
 #equipe{
     display: grid;
-    grid-template-columns: 33% 34% 33% ;
+    grid-template-columns: 20% 20% ;
     text-align: center;
     background-color: rgb(153, 152, 152);
 }
