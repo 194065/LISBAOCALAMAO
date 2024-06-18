@@ -1,70 +1,69 @@
-*{
-    margin: 0; 
-} 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-header { 
-display: flex; 
-align-items: center; 
-padding: 12px; 
-justify-content: space-around; 
-background-color: black; 
-color: white; 
-position: relative; /* Importante para o menu tomar como referência */
-
+:root{
+    --green: #005b2a;
+    --white: #ffffff;
 }
 
-ul li{ 
-    list-style: none; 
+body{
+    background-color: var(--green);
+    color: var(--white);
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
-.texto{ 
-    color:white; 
-} 
-    a{ 
-    color: white;
-    text-decoration: none;
+img{
+    width: 10%;
 }
 
-.lista { 
-        display: none; 
-        position: absolute; /* Aqui está definindo onde o menu irá aparecer */ 
-        top: 100%; 
-        background-color: rgb(99, 72, 72); 
-        width: 100%; 
-        padding: 20px 0; 
-        text-align: center; 
-
-        } 
-
-        /* Fazendo o menu aparecer quando clicado */ 
-.caixa:checked ~ .lista{ 
-    display: block; 
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-#menu{ 
-    display: none;
-} 
+.img-intro{
+   width: 20%;
+}
 
-.lista-item { 
-    padding: 12px 0; 
-} 
+.intro {
+    display: flex;
+    background: rgb(0, 128, 109);
+    margin: 20px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid green;
+    justify-content: space-between;
+    
+}
 
-.foto{
+#equipe{
+    display: grid;
+    grid-template-columns: 33% 34% 33% ;
+    text-align: center;
+    background-color: rgb(153, 152, 152);
+}
+
+.foto-equipe{
     width: 40%;
 }
 
+.pessoa{
+    border: 3px solid rgb(255, 255, 255);
+    margin: 12px;
+}
 
-@media screen and (min-width: 1024px) { 
-    } 
-    .lista{ 
-    right: 8%; 
-    width: 14%; 
-    padding: 20px; 
-    text-align: start;
-} 
-    .lista-item:hover{ 
-    background-color: rgb(119, 51, 51);
-    }
+footer{
+    background-color: rgb(148, 148, 148);
+    color:rgb(255, 255, 255);
+}
 
-    
+header a{ 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 
-
+.cor{
+    color: green;
+}
