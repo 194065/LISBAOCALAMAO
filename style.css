@@ -48,6 +48,10 @@ ul li{
     padding: 12px 0; 
 } 
 
+.foto{
+    width: 40%;
+}
+
 
 @media screen and (min-width: 1024px) { 
     } 
