@@ -46,12 +46,12 @@ header{
 }
 
 .foto-equipe{
-    width: 20%;
+    width: 50%;
 }
 
 .pessoa{
     border: 3px solid rgb(255, 255, 255);
-    margin: 5px;
+    margin: 20px;
 }
 
 footer{
